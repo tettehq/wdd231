@@ -1,0 +1,70 @@
+@media only screen and (min-width: 38rem) {
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 24px auto;
+        border-bottom: none;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border: 1px solid var(--secondary-color);
+        border-radius: 15px;
+    }
+
+    .navigation li:nth-child(1) a {
+        border-radius: 13px 0 0 13px;
+    }
+
+    .navigation li:last-child a {
+        border-radius: 0 13px 13px 0;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation li {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .navigation a {
+        border: none;
+        width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 2fr 1fr;
+        align-items: stretch;
+        gap: 10px;;
+    }
+
+    main h1 {
+        grid-column: 1/3;
+    }
+
+    .info-card {
+       margin: 0;
+       justify-content: start;
+    }
+
+    #courses-card {
+        grid-column: 1/3;
+    }
+
+    #course-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
