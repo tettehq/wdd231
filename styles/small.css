@@ -155,9 +155,6 @@ main {
     border-radius: 10px;
     margin-bottom: .5rem;
     background-color: var(--secondary-color);
-}
-
-#course-list li {
     color: var(--main-text);
 }
 
