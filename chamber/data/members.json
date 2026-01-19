@@ -1,0 +1,142 @@
+[
+  {
+    "companyName": "Sunrise Tech Solutions",
+    "address": "12 Independence Avenue, Accra, Ghana",
+    "phone": "+233 24 123 4567",
+    "website": "https://www.sunrisetechsolutions.com",
+    "image": "sunrise-tech.png",
+    "membershipLevel": 3,
+    "email": "info@sunrisetechsolutions.com",
+    "description": "Provides software development and IT consulting services."
+  },
+  {
+    "companyName": "GreenFarm Produce Ltd",
+    "address": "Plot 45, Kasoa Highway, Central Region, Ghana",
+    "phone": "+233 20 987 6543",
+    "website": "https://www.greenfarmproduce.com",
+    "image": "greenfarm.png",
+    "membershipLevel": 2,
+    "email": "sales@greenfarmproduce.com",
+    "description": "Suppliers of organic vegetables and farm produce."
+  },
+  {
+    "companyName": "OceanWave Logistics",
+    "address": "Harbour Road, Tema, Greater Accra",
+    "phone": "+233 30 556 7788",
+    "website": "https://www.oceanwavelogistics.com",
+    "image": "oceanwave-logistics.jpg",
+    "membershipLevel": 1,
+    "email": "contact@oceanwavelogistics.com",
+    "description": "Freight forwarding and cargo handling services."
+  },
+  {
+    "companyName": "Bright Future Academy",
+    "address": "No. 8 School Lane, Cape Coast, Ghana",
+    "phone": "+233 27 445 3321",
+    "website": "https://www.brightfutureacademy.edu.gh",
+    "image": "bright-future-academy.png",
+    "membershipLevel": 2,
+    "email": "admin@brightfutureacademy.edu.gh",
+    "description": "Private basic and secondary education institution."
+  },
+  {
+    "companyName": "Golden Touch Fashion House",
+    "address": "Shop 21, Makola Market, Accra",
+    "phone": "+233 54 889 1122",
+    "website": "https://www.goldentouchfashion.com",
+    "image": "golden-touch-fashion.jpg",
+    "membershipLevel": 3,
+    "email": "orders@goldentouchfashion.com",
+    "description": "Designs and produces custom African wear and textiles."
+  },
+  {
+    "companyName": "AquaPure Water Company",
+    "address": "Industrial Area, Takoradi, Ghana",
+    "phone": "+233 31 224 5566",
+    "website": "https://www.aquapurewater.com",
+    "image": "aquapure-water.png",
+    "membershipLevel": 1,
+    "email": "support@aquapurewater.com",
+    "description": "Manufacturers of bottled and sachet drinking water."
+  },
+  {
+    "companyName": "Skyline Real Estate",
+    "address": "East Legon Hills, Accra, Ghana",
+    "phone": "+233 26 778 9900",
+    "website": "https://www.skylinerealestate.com",
+    "image": "skyline-realestate.jpg",
+    "membershipLevel": 3,
+    "email": "info@skylinerealestate.com",
+    "description": "Property development, sales, and management services."
+  },
+  {
+    "companyName": "EcoBuild Construction",
+    "address": "Spintex Road, Accra, Ghana",
+    "phone": "+233 55 334 7788",
+    "website": "https://www.ecobuildconstruction.com",
+    "image": "ecobuild.png",
+    "membershipLevel": 2,
+    "email": "projects@ecobuildconstruction.com",
+    "description": "Specialists in sustainable residential and commercial construction."
+  },
+  {
+    "companyName": "SwiftRide Transport Services",
+    "address": "Adum, Kumasi, Ghana",
+    "phone": "+233 24 665 4433",
+    "website": "https://www.swiftridegh.com",
+    "image": "swiftride.jpg",
+    "membershipLevel": 1,
+    "email": "support@swiftridegh.com",
+    "description": "Ride-hailing and corporate transport solutions."
+  },
+  {
+    "companyName": "Royal Taste Catering",
+    "address": "Osu Oxford Street, Accra",
+    "phone": "+233 50 998 2211",
+    "website": "https://www.royaltastecatering.com",
+    "image": "royal-taste.png",
+    "membershipLevel": 2,
+    "email": "events@royaltastecatering.com",
+    "description": "Event catering services for weddings, parties, and corporate events."
+  },
+  {
+    "companyName": "SmartFix Electronics",
+    "address": "Tech Junction, Ho, Ghana",
+    "phone": "+233 23 441 9090",
+    "website": "https://www.smartfixelectronics.com",
+    "image": "smartfix-electronics.jpg",
+    "membershipLevel": 1,
+    "email": "repair@smartfixelectronics.com",
+    "description": "Sales and repair of mobile phones, laptops, and accessories."
+  },
+  {
+    "companyName": "Harvest Gold Agro Ltd",
+    "address": "Farm Road, Sunyani, Ghana",
+    "phone": "+233 27 332 1188",
+    "website": "https://www.harvestgoldagro.com",
+    "image": "harvest-gold.png",
+    "membershipLevel": 3,
+    "email": "info@harvestgoldagro.com",
+    "description": "Large-scale crop farming and agricultural input supply."
+  },
+  {
+    "companyName": "Nova Health Pharmacy",
+    "address": "Hospital Road, Koforidua, Ghana",
+    "phone": "+233 31 889 7766",
+    "website": "https://www.novahealthpharmacy.com",
+    "image": "nova-health.png",
+    "membershipLevel": 2,
+    "email": "care@novahealthpharmacy.com",
+    "description": "Retail pharmacy offering prescription and wellness products."
+  },
+  {
+    "companyName": "PixelCraft Media",
+    "address": "Digital Hub, Dansoman, Accra",
+    "phone": "+233 59 774 6633",
+    "website": "https://www.pixelcraftmedia.com",
+    "image": "pixelcraft-media.jpg",
+    "membershipLevel": 3,
+    "email": "hello@pixelcraftmedia.com",
+    "description": "Graphic design, branding, and digital marketing agency."
+  }
+]

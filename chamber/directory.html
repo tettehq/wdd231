@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,9 +15,22 @@
       content="Join the Chamber of Commerce to connect with local businesses, access valuable resources, and grow your brand within a supportive business community."
     />
     <meta property="og:image" content="/images/logo1.webp" />
-    <meta property="og:url" content="" />
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <meta
+      property="og:url"
+      content="https://tettehq.github.io/wdd231/chamber/directory.html"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
   </head>
   <body>
     <header>
@@ -28,12 +41,42 @@
         class="hamburger"
         aria-label="navigation"
       ></button>
-      <nav>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">DIrectory</a></li>
-        <li><a href="#">Join</a></li>
-        <li><a href="#">Discover</a></li>
+      <nav id="nav-bar" class="navigation">
+        <ul>
+          <li class="current"><a href="#">Home</a></li>
+          <li><a href="#">DIrectory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Discover</a></li>
+        </ul>
       </nav>
     </header>
+    <footer>
+      <div class="address">
+        <span>Kpone Chamber of Commerce</span>
+        <span>BD 62 Lakoitey St</span>
+        <span>Kpone, Greater Accra, Ghana</span>
+        <span>info@kponecc.org</span>
+        <span>(233) 444-2100</span>
+      </div>
+      <div class="social">
+        <a href="https://github.com/tettehq/" target="_blank"
+          ><img src="images/github.svg" alt="github icon"
+        /></a>
+        <a href="https://www.linkedin.com/in/aaronquarshie2417/" target="_blank"
+          ><img src="images/linkedin.svg" alt="linkedin icon"
+        /></a>
+        <a href="https://x.com/HettetNoraa" target="_blank"
+          ><img src="images/twitter.svg" alt="twitter icon"
+        /></a>
+      </div>
+      <div class="author-info">
+        <span>WDD231 Class Project</span>
+        <span>Aaron Quarshie</span>
+        <span>
+          &copy; <span id="copyYear"></span> &bull; Kpone Chamber of Commerce
+        </span>
+        <span>Last Modification: <span id="lastModified"></span></span>
+      </div>
+    </footer>
   </body>
 </html>

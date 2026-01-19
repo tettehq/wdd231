@@ -1,0 +1,49 @@
+@media only screen and (min-width: 38rem) {
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 50px auto auto;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border: 1px solid var(--secondary-color);
+        border-radius: 15px;
+        position: static;
+    }
+
+    .navigation li:nth-child(1) a {
+        border-radius: 13px 0 0 13px;
+    }
+
+    .navigation li:last-child a {
+        border-radius: 0 13px 13px 0;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation li {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .navigation a {
+        border: none;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 45rem) {
+    footer {
+        flex-direction: row;
+    }
+}
