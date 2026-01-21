@@ -1,49 +1,86 @@
 @media only screen and (min-width: 38rem) {
-    main {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
+  header {
+    grid-template-columns: 50px auto auto;
+  }
 
-    header {
-        grid-template-columns: 50px auto auto;
-    }
-    
-    .hamburger {
-        display: none;
-    }
+  .hamburger {
+    display: none;
+  }
 
-    .navigation {
-        display: block;
-        border: 1px solid var(--secondary-color);
-        border-radius: 15px;
-        position: static;
-    }
+  .navigation {
+    display: block;
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    position: static;
+  }
 
-    .navigation li:nth-child(1) a {
-        border-radius: 13px 0 0 13px;
-    }
+  .navigation li:nth-child(1) a {
+    border-radius: 13px 0 0 13px;
+  }
 
-    .navigation li:last-child a {
-        border-radius: 0 13px 13px 0;
-    }
+  .navigation li:last-child a {
+    border-radius: 0 13px 13px 0;
+  }
 
-    .navigation ul {
-        display: flex;
-    }
+  .navigation ul {
+    display: flex;
+  }
 
-    .navigation li {
-        flex-grow: 1;
-        text-align: center;
-    }
+  .navigation li {
+    flex-grow: 1;
+    text-align: center;
+  }
 
-    .navigation a {
-        border: none;
-        width: 100%;
-    }
+  .navigation a {
+    border: none;
+    width: 100%;
+  }
+
+  /* -------------------- LIST VIEW -------------------------- */
+  #cards.list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #cards.list section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #cards.list section:nth-child(even) {
+    background-color: #c4c2c2;
+  }
+
+  #cards.list img {
+    display: none;
+  }
+
+  #displayButtons {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  #displayButtons button {
+    padding: 10px;
+    margin: auto 5px;
+    font-weight: 900;
+    color: var(--secondary-color);
+    border-radius: 15px;
+  }
+
+  #displayButtons button.selected {
+    background-color: var(--secondary-color);
+    color: var(--main-text);
+  }
 }
 
 @media only screen and (min-width: 45rem) {
-    footer {
-        flex-direction: row;
-    }
+  footer {
+    flex-direction: row;
+  }
 }
