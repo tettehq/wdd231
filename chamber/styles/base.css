@@ -136,6 +136,10 @@ footer {
 /* ----------------- MAIN -------------------- */
 main {
   max-width: 1000px;
+  margin: 10px auto;
+}
+
+main h1 {
   margin: 10px;
 }
 
