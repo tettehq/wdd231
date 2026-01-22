@@ -1,4 +1,4 @@
-const url = "/chamber/data/members.json";
+const url = "/wdd231/chamber/data/members.json";
 
 const cards = document.querySelector("#cards");
 
