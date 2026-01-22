@@ -51,6 +51,10 @@
     gap: 10px;
   }
 
+  #cards.list section h3 {
+    display: block;
+  }
+
   #cards.list section:nth-child(even) {
     background-color: #c4c2c2;
   }

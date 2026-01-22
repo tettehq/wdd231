@@ -125,7 +125,7 @@
         "address": "Hospital Road, Koforidua, Ghana",
         "phone": "+233 31 889 7766",
         "website": "https://www.novahealthpharmacy.com",
-        "image": "/chamber/images/novahealth.webp",
+        "image": "images/novahealth.webp",
         "membershipLevel": 2,
         "email": "care@novahealthpharmacy.com",
         "description": "Retail pharmacy offering prescription and wellness products."
@@ -135,7 +135,7 @@
         "address": "Digital Hub, Dansoman, Accra",
         "phone": "+233 59 774 6633",
         "website": "https://www.pixelcraftmedia.com",
-        "image": "/chamber/images/pixelcraft.webp",
+        "image": "images/pixelcraft.webp",
         "membershipLevel": 3,
         "email": "hello@pixelcraftmedia.com",
         "description": "Graphic design, branding, and digital marketing agency."

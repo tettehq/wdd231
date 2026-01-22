@@ -1,10 +1,9 @@
-const url = "/wdd231/chamber/data/members.json";
-const urldev = "/chamber/data/members.json";
+const url = "data/members.json";
 
 const cards = document.querySelector("#cards");
 
 async function getBusinessData() {
-  const response = await fetch(urldev);
+  const response = await fetch(url);
   const data = await response.json();
   console.table(data);
   displayBusinesses(data.businesses);
