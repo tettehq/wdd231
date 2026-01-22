@@ -1,9 +1,10 @@
 const url = "/wdd231/chamber/data/members.json";
+const urldev = "/chamber/data/members.json";
 
 const cards = document.querySelector("#cards");
 
 async function getBusinessData() {
-  const response = await fetch(url);
+  const response = await fetch(urldev);
   const data = await response.json();
   console.table(data);
   displayBusinesses(data.businesses);
@@ -25,15 +26,14 @@ const displayBusinesses = (businesses) => {
         phone.textContent = business.phone;
         email.setAttribute("href", business.email);
         email.textContent = business.email;
-        image.setAttribute(
-          "src",
-          `https://placehold.co/200x100?text=${business.companyName}`,
-        );
+        image.setAttribute("src", business.image);
         image.setAttribute(
           "alt",
           `Logo of ${business.companyName}`,
         );
-        image.setAttribute("loading", "lazy");
+      image.setAttribute("loading", "lazy");
+      image.setAttribute("width", 200)
+      image.setAttribute("height", 200);
 
         card.appendChild(companyName);
         card.appendChild(image);
