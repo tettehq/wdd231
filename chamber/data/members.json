@@ -5,7 +5,7 @@
         "address": "12 Independence Avenue, Accra, Ghana",
         "phone": "+233 24 123 4567",
         "website": "https://www.sunrisetechsolutions.com",
-        "image": "sunrise-tech.png",
+        "image": "images/suntech.webp",
         "membershipLevel": 3,
         "email": "info@sunrisetechsolutions.com",
         "description": "Provides software development and IT consulting services."
@@ -15,7 +15,7 @@
         "address": "Plot 45, Kasoa Highway, Central Region, Ghana",
         "phone": "+233 20 987 6543",
         "website": "https://www.greenfarmproduce.com",
-        "image": "greenfarm.png",
+        "image": "images/greenfarm.webp",
         "membershipLevel": 2,
         "email": "sales@greenfarmproduce.com",
         "description": "Suppliers of organic vegetables and farm produce."
@@ -25,7 +25,7 @@
         "address": "Harbour Road, Tema, Greater Accra",
         "phone": "+233 30 556 7788",
         "website": "https://www.oceanwavelogistics.com",
-        "image": "oceanwave-logistics.jpg",
+        "image": "images/oceanwave.webp",
         "membershipLevel": 1,
         "email": "contact@oceanwavelogistics.com",
         "description": "Freight forwarding and cargo handling services."
@@ -35,7 +35,7 @@
         "address": "No. 8 School Lane, Cape Coast, Ghana",
         "phone": "+233 27 445 3321",
         "website": "https://www.brightfutureacademy.edu.gh",
-        "image": "bright-future-academy.png",
+        "image": "images/brightfuture.webp",
         "membershipLevel": 2,
         "email": "admin@brightfutureacademy.edu.gh",
         "description": "Private basic and secondary education institution."
@@ -45,7 +45,7 @@
         "address": "Shop 21, Makola Market, Accra",
         "phone": "+233 54 889 1122",
         "website": "https://www.goldentouchfashion.com",
-        "image": "golden-touch-fashion.jpg",
+        "image": "images/goldentouch.webp",
         "membershipLevel": 3,
         "email": "orders@goldentouchfashion.com",
         "description": "Designs and produces custom African wear and textiles."
@@ -55,7 +55,7 @@
         "address": "Industrial Area, Takoradi, Ghana",
         "phone": "+233 31 224 5566",
         "website": "https://www.aquapurewater.com",
-        "image": "aquapure-water.png",
+        "image": "images/aquapure.webp",
         "membershipLevel": 1,
         "email": "support@aquapurewater.com",
         "description": "Manufacturers of bottled and sachet drinking water."
@@ -65,7 +65,7 @@
         "address": "East Legon Hills, Accra, Ghana",
         "phone": "+233 26 778 9900",
         "website": "https://www.skylinerealestate.com",
-        "image": "skyline-realestate.jpg",
+        "image": "images/skyline.webp",
         "membershipLevel": 3,
         "email": "info@skylinerealestate.com",
         "description": "Property development, sales, and management services."
@@ -75,7 +75,7 @@
         "address": "Spintex Road, Accra, Ghana",
         "phone": "+233 55 334 7788",
         "website": "https://www.ecobuildconstruction.com",
-        "image": "ecobuild.png",
+        "image": "images/ecobuild.webp",
         "membershipLevel": 2,
         "email": "projects@ecobuildconstruction.com",
         "description": "Specialists in sustainable residential and commercial construction."
@@ -85,7 +85,7 @@
         "address": "Adum, Kumasi, Ghana",
         "phone": "+233 24 665 4433",
         "website": "https://www.swiftridegh.com",
-        "image": "swiftride.jpg",
+        "image": "images/swiftride.webp",
         "membershipLevel": 1,
         "email": "support@swiftridegh.com",
         "description": "Ride-hailing and corporate transport solutions."
@@ -95,7 +95,7 @@
         "address": "Osu Oxford Street, Accra",
         "phone": "+233 50 998 2211",
         "website": "https://www.royaltastecatering.com",
-        "image": "royal-taste.png",
+        "image": "images/royaltaste.webp",
         "membershipLevel": 2,
         "email": "events@royaltastecatering.com",
         "description": "Event catering services for weddings, parties, and corporate events."
@@ -105,7 +105,7 @@
         "address": "Tech Junction, Ho, Ghana",
         "phone": "+233 23 441 9090",
         "website": "https://www.smartfixelectronics.com",
-        "image": "smartfix-electronics.jpg",
+        "image": "images/smartfix.webp",
         "membershipLevel": 1,
         "email": "repair@smartfixelectronics.com",
         "description": "Sales and repair of mobile phones, laptops, and accessories."
@@ -115,7 +115,7 @@
         "address": "Farm Road, Sunyani, Ghana",
         "phone": "+233 27 332 1188",
         "website": "https://www.harvestgoldagro.com",
-        "image": "harvest-gold.png",
+        "image": "images/harvestgold.webp",
         "membershipLevel": 3,
         "email": "info@harvestgoldagro.com",
         "description": "Large-scale crop farming and agricultural input supply."
