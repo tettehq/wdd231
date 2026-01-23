@@ -23,7 +23,7 @@ const displayBusinesses = (businesses) => {
         companyName.textContent = business.companyName;
         address.textContent = business.address;
         phone.textContent = business.phone;
-        email.setAttribute("href", business.email);
+        email.setAttribute("href", "#");
         email.textContent = business.email;
         image.setAttribute("src", business.image);
         image.setAttribute(

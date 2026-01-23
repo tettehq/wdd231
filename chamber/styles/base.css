@@ -171,7 +171,6 @@ main h1 {
   box-shadow:
     -5px -5px 20px #a8a5a5,
     5px -5px 20px #d6d0d0;
-  gap: initial;
   transition: box-shadow 0.5s ease 0s;
 }
 
@@ -184,14 +183,15 @@ main h1 {
 /* -------------------- LIST VIEW -------------------------- */
 #cards.list {
   display: flex;
+  gap: 5px;
   flex-direction: column;
   text-align: center;
 }
 #cards.list section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 10px;
 }
 
