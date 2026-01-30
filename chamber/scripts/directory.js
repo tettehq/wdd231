@@ -58,4 +58,3 @@ listbutton.addEventListener("click", () => {
   listbutton.classList.add("selected");
   gridbutton.classList.remove("selected");
 });
-

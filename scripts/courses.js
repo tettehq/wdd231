@@ -76,6 +76,7 @@ const displayCSE = document.getElementById("cse");
 const displayWDD = document.getElementById("wdd");
 const courseList = document.getElementById("course-list");
 const totalCredits = document.getElementById("totalCredits");
+const courseDetails = document.getElementById("course-details");
 
 displayAll.addEventListener("click", filterAll);
 
@@ -92,9 +93,12 @@ function filterAll() {
     li.textContent = course.subject + " " + course.number;
     if (course.completed) li.classList.add("completed");
     courseList.appendChild(li);
+    li.addEventListener("click", () => {
+      displayCourseDetails(course);
+    });
     totalCredits.textContent = courses.reduce(
       (acc, curr) => acc + curr.credits,
-      0
+      0,
     );
   });
 }
@@ -106,9 +110,12 @@ function filterCSE() {
     li.textContent = course.subject + " " + course.number;
     if (course.completed) li.classList.add("completed");
     courseList.appendChild(li);
+    li.addEventListener("click", () => {
+      displayCourseDetails(course);
+    });
     totalCredits.textContent = cseCourses.reduce(
       (acc, curr) => acc + curr.credits,
-      0
+      0,
     );
   });
 }
@@ -120,9 +127,30 @@ function filterWDD() {
     li.textContent = course.subject + " " + course.number;
     if (course.completed) li.classList.add("completed");
     courseList.appendChild(li);
+    li.addEventListener("click", () => {
+      displayCourseDetails(course);
+    });
     totalCredits.textContent = wddCourses.reduce(
       (acc, curr) => acc + curr.credits,
-      0
+      0,
     );
+  });
+}
+
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = "";
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(", ")}</p>
+  `;
+  courseDetails.showModal();
+
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
   });
 }
