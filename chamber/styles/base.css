@@ -187,20 +187,17 @@ main#home {
 
 #current-weather, #forecast {
  display: grid;
-  grid-template-columns: 10px 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: 50px 1fr;
 }
 
 #current-weather img {
-  justify-self: start;
+  width: 80px;
   margin-top: 1.5rem;
-  margin-left: 1rem;
-  width: 60px;
 }
 
 #current-weather ul {
-  justify-self: end;
-  margin-right: 1.5rem;
+  padding-left: 0.5rem;
 }
 
 #events h3, #events p{
