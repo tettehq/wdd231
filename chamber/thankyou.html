@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kpone Chamber of Commerce</title>
+    <title>Thank You!</title>
     <meta
       name="description"
       content="Discover Kpone’s registered businesses and connect with entrepreneurs and investors through the Chamber’s site."
@@ -11,11 +11,11 @@
     <meta name="author" content="Aaron Quarshie" />
     <meta
       property="og:title"
-      content="The Home Page of the Kpone Chamber of Commerce Site"
+      content="The Join Page of the Kpone Chamber of Commerce Site"
     />
     <meta
       property="og:description"
-      content="Discover Kpone’s registered businesses and connect with entrepreneurs and investors through the Chamber’s site."
+      content="Join us and explore Kpone’s registered businesses and connect with entrepreneurs and investors through the Chamber’s site."
     />
     <meta
       property="og:image"
@@ -23,7 +23,7 @@
     />
     <meta
       property="og:url"
-      content="https://tettehq.github.io/wdd231/chamber/"
+      content="https://tettehq.github.io/wdd231/chamber/join.html"
     />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
@@ -41,7 +41,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/chamber-home.mjs" type="module"></script>
+    <script src="scripts/thankyou.js" defer></script>
   </head>
   <body>
     <header>
@@ -54,44 +54,19 @@
       ></button>
       <nav id="nav-bar" class="navigation">
         <ul>
-          <li class="current"><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
           <li><a href="#">Discover</a></li>
         </ul>
       </nav>
     </header>
-    <section class="hero">
-      <img src="images/hero-image.webp" alt="site banner or hero image" />
-      <span id="cta"><a href="join.html">Join the Chamber now!</a></span>
-    </section>
-    <main id="home">
-      <h1>Home</h1>
-      <section id="weather-section">
-        <section id="events" class="info-card">
-          <h2>Events</h2>
-          <h3>Kpone Homowo Festival</h3>
-          <p>Come and have loads of fun!!!!</p>
+    <main id="thankyou">
+        <h1>Thank You!</h1>
+        <section>
+            <h2>Here are your registration details.</h2>
+            <ul id="form-info"></ul>
         </section>
-        <section id="current-weather" class="info-card">
-          <h2>Current Weather</h2>
-          <img id="weather-icon" src="#" alt="#" />
-          <ul id="weather-info">
-            <li id="current-temp"></li>
-            <li id="desc"></li>
-            <li id="high"></li>
-            <li id="low"></li>
-            <li id="humidity"></li>
-            <li id="sunrise"></li>
-            <li id="sunset"></li>
-          </ul>
-        </section>
-        <section id="forecast" class="info-card">
-          <h2>Weather Forecast</h2>
-          <ul id="forecast-info"></ul>
-        </section>
-      </section>
-      <section id="spotlight"></section>
     </main>
     <footer>
       <div class="address">
