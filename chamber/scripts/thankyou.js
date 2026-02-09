@@ -1,10 +1,8 @@
 const formInfo = document.getElementById("form-info");
 
 const getString = window.location.search;
-console.log(getString);
 
 const myInfo = new URLSearchParams(getString);
-console.log(myInfo.get("organization"));
 
 formInfo.innerHTML = `
 <li><strong>First Name</strong>: ${myInfo.get("first")}</li>

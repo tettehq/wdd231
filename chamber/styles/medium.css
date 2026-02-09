@@ -1,0 +1,84 @@
+@media only screen and (min-width: 38rem) {
+  header {
+    grid-template-columns: 50px auto auto;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    position: static;
+  }
+
+  .navigation li:nth-child(1) a {
+    border-radius: 13px 0 0 13px;
+  }
+
+  .navigation li:last-child a {
+    border-radius: 0 13px 13px 0;
+  }
+
+  .navigation ul {
+    display: flex;
+  }
+
+  .navigation li {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .navigation a {
+    border: none;
+    width: 100%;
+  }
+
+  /* -------------------- LIST VIEW -------------------------- */
+  #cards.list section {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr;
+  }
+
+  #events {
+    grid-column: 1/3;
+  }
+
+  #join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #join h1 {
+    grid-column: 1/-1;
+  }
+
+  .interest-card {
+    grid-template-areas:
+      "photo name"
+      "photo description"
+      "photo address"
+      "photo learn";
+  }
+
+  .interest-card img {
+    width: 300px;
+  }
+
+  .interest-card img:hover {
+    transform: rotate(2deg) scale(1.2,1.2);
+    box-shadow:
+    -5px -5px 20px #a8a5a5,
+    5px -5px 20px #d6d0d0;
+  }
+  
+}
+
+@media only screen and (min-width: 45rem) {
+  footer {
+    flex-direction: row;
+  }
+}

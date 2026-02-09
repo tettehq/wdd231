@@ -7,6 +7,11 @@ const bronzeButton = document.getElementById("bronze");
 const silverButton = document.getElementById("silver");
 const goldButton = document.getElementById("gold");
 
+document.addEventListener("DOMContentLoaded", () => {
+  const now = d.toLocaleString();
+  document.getElementById("timestamp").value = now;
+});
+
 function openDialog(html) {
   content.innerHTML = html;
   dialog.showModal();

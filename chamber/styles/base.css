@@ -449,7 +449,7 @@ dialog::backdrop {
   animation: slideIn 0.6s ease forwards;
 }
 
-.levels button {
+.levels button, .interest-card button {
   border: none;
   text-align: center;
   background-color: var(--nav-hover);
@@ -526,4 +526,83 @@ dialog::backdrop {
     font-size: 1.2rem;
     margin-bottom: 2rem;
   }
+}
+
+/* ------------------------ DISCOVER --------------------- */
+.interest-card {
+  display: grid;
+  margin: 1rem 8px;
+  border: 1px solid #a8a5a5;
+  border-radius: 10px;
+  overflow: hidden;
+  grid-template-areas: 
+  "name"
+  "photo"
+  "description"
+  "address"
+  "learn"
+  ;
+}
+
+.interest-card h2 {
+  margin: 1rem 10px;
+  grid-area: name;
+}
+
+.interest-card p {
+  margin: 1rem 10px;
+  grid-area: description;
+}
+
+.interest-card address {
+  margin: 1rem 10px;
+  grid-area: address;
+}
+
+.interest-card img {
+  width: 100%;
+  max-width: 300px;
+  grid-area: photo;
+  transition: all 0.5s linear 0.1s;
+  justify-self: center;
+}
+
+.interest-card button {
+  margin: 1rem 10px;
+  grid-area: learn;
+}
+
+.marquee-container {
+  grid-column: 1 / -1;
+  width: 100%;
+  overflow: hidden;
+  background: var(--nav-hover);
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 4px;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+.marquee-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 15s linear infinite;
+  color: var(--main-text);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-container:hover .marquee-text {
+  animation-play-state: paused;
 }

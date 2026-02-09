@@ -3,16 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kpone Chamber of Commerce Directory</title>
+    <title>Discover</title>
     <meta
       name="description"
-      content="Discover Kpone’s registered businesses and connect with entrepreneurs and investors through the Chamber’s directory."
+      content="Discover Kpone’s sites of interest and attraction through the Chamber’s site."
     />
     <meta name="author" content="Aaron Quarshie" />
-    <meta property="og:title" content="Kpone Chamber of Commerce Business Directory" />
+    <meta
+      property="og:title"
+      content="The Discover Page of the Kpone Chamber of Commerce Site"
+    />
     <meta
       property="og:description"
-      content="Discover Kpone’s registered businesses and connect with entrepreneurs and investors through the Chamber’s directory."
+      content="Join us and explore Kpone’s sites of interest and attractions through the Chamber’s site."
     />
     <meta
       property="og:image"
@@ -20,11 +23,12 @@
     />
     <meta
       property="og:url"
-      content="https://tettehq.github.io/wdd231/chamber/directory.html"
+      content="https://tettehq.github.io/wdd231/chamber/join.html"
     />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -38,7 +42,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/discover.mjs" type="module"></script>
   </head>
   <body>
     <header>
@@ -52,21 +56,18 @@
       <nav id="nav-bar" class="navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li class="current"><a href="directory.html">Directory</a></li>
+          <li><a href="directory.html">Directory</a></li>
           <li><a href="join.html">Join</a></li>
-          <li><a href="discover.html">Discover</a></li>
+          <li class="current"><a href="discover.html">Discover</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <h1>Business Directory</h1>
-      <div id="displayButtons">
-        <button id="grid"><i class="fa fa-th-large"></i> Grid View</button>
-        <button class="selected" id="list">
-          <i class="fa fa-bars"></i> List View
-        </button>
-      </div>
-      <div class="list" id="cards"></div>
+    <section id="messageArea"></section>
+    <main id="discover">
+        <h1>Discover More!</h1>
+        <section id="displayArea">
+            
+        </section>
     </main>
     <footer>
       <div class="address">
