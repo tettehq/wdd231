@@ -563,7 +563,7 @@ dialog::backdrop {
   width: 100%;
   max-width: 300px;
   grid-area: photo;
-  transition: all 0.5s linear 0.1s;
+  transition: transform 0.5s linear 0.1s;
   justify-self: center;
 }
 
