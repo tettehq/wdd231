@@ -17,6 +17,7 @@ function renderCards(items) {
     img.alt = item.name;
     img.width = item.image.width;
     img.height = item.image.height;
+    img.loading = "lazy";
 
     const address = document.createElement("address");
     address.textContent = item.address;

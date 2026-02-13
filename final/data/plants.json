@@ -1,0 +1,202 @@
+{
+  "plants": [
+    {
+      "id": "p001",
+      "common_name": "Monstera Deliciosa",
+      "scientific_name": "Monstera deliciosa",
+      "light_level": "Bright Indirect",
+      "water_needs": "Every 1-2 weeks",
+      "difficulty": "Easy",
+      "pet_safe": false,
+      "image_url": "images/monstera.webp",
+      "description": "Famous for its natural leaf-holes, the Swiss Cheese Plant is a stunning addition to any room."
+    },
+    {
+      "id": "p002",
+      "common_name": "Snake Plant",
+      "scientific_name": "Dracaena trifasciata",
+      "light_level": "Low to Bright",
+      "water_needs": "Every 3-4 weeks",
+      "difficulty": "Beginner",
+      "pet_safe": false,
+      "image_url": "images/snake-plant.webp",
+      "description": "An architectural plant that is nearly indestructible and thrives on neglect."
+    },
+    {
+      "id": "p003",
+      "common_name": "Spider Plant",
+      "scientific_name": "Chlorophytum comosum",
+      "light_level": "Medium",
+      "water_needs": "Every 1 week",
+      "difficulty": "Easy",
+      "pet_safe": true,
+      "image_url": "images/spider-plant.webp",
+      "description": "Produces 'pups' that hang down like little spiders. Excellent for air purification."
+    },
+    {
+      "id": "p004",
+      "common_name": "Peace Lily",
+      "scientific_name": "Spathiphyllum",
+      "light_level": "Low to Medium",
+      "water_needs": "Every 1 week",
+      "difficulty": "Moderate",
+      "pet_safe": false,
+      "image_url": "images/peace-lily.webp",
+      "description": "Elegant white blooms that will 'droop' visibly to tell you when they are thirsty."
+    },
+    {
+      "id": "p005",
+      "common_name": "Fiddle Leaf Fig",
+      "scientific_name": "Ficus lyrata",
+      "light_level": "Bright Indirect",
+      "water_needs": "Every 1 week",
+      "difficulty": "Hard",
+      "pet_safe": false,
+      "image_url": "images/fiddle-leaf.webp",
+      "description": "A popular statement plant with large, violin-shaped leaves. Can be quite finicky."
+    },
+    {
+      "id": "p006",
+      "common_name": "Aloe Vera",
+      "scientific_name": "Aloe barbadensis miller",
+      "light_level": "Bright Direct",
+      "water_needs": "Every 3 weeks",
+      "difficulty": "Easy",
+      "pet_safe": false,
+      "image_url": "images/aloe-vera.webp",
+      "description": "A succulent with medicinal sap used to treat minor burns and skin irritations."
+    },
+    {
+      "id": "p007",
+      "common_name": "Pothos",
+      "scientific_name": "Epipremnum aureum",
+      "light_level": "Low to Bright",
+      "water_needs": "Every 1-2 weeks",
+      "difficulty": "Beginner",
+      "pet_safe": false,
+      "image_url": "images/pothos.webp",
+      "description": "Also known as Devil's Ivy, it features trailing vines that can grow several feet long."
+    },
+    {
+      "id": "p008",
+      "common_name": "Calathea Rattlesnake",
+      "scientific_name": "Goeppertia insignis",
+      "light_level": "Medium",
+      "water_needs": "Every 1 week",
+      "difficulty": "Moderate",
+      "pet_safe": true,
+      "image_url": "images/calathea.webp",
+      "description": "Notable for its wavy leaves with dark green spots and a deep purple underside."
+    },
+    {
+      "id": "p009",
+      "common_name": "ZZ Plant",
+      "scientific_name": "Zamioculcas zamiifolia",
+      "light_level": "Low to Bright",
+      "water_needs": "Every 3-4 weeks",
+      "difficulty": "Beginner",
+      "pet_safe": false,
+      "image_url": "images/zz-plant.webp",
+      "description": "Features waxy, green leaves and thrives in low-light office environments."
+    },
+    {
+      "id": "p010",
+      "common_name": "Boston Fern",
+      "scientific_name": "Nephrolepis exalta",
+      "light_level": "Bright Indirect",
+      "water_needs": "Twice a week",
+      "difficulty": "Moderate",
+      "pet_safe": true,
+      "image_url": "images/boston-fern.webp",
+      "description": "Loves high humidity and frequent misting. Perfect for a bathroom with a window."
+    },
+    {
+      "id": "p011",
+      "common_name": "Rubber Tree",
+      "scientific_name": "Ficus elastica",
+      "light_level": "Bright Indirect",
+      "water_needs": "Every 1-2 weeks",
+      "difficulty": "Easy",
+      "pet_safe": false,
+      "image_url": "images/rubber-tree.webp",
+      "description": "Has thick, glossy leaves that can be dark green or burgundy."
+    },
+    {
+      "id": "p012",
+      "common_name": "Jade Plant",
+      "scientific_name": "Crassula ovata",
+      "light_level": "Bright Direct",
+      "water_needs": "Every 2-3 weeks",
+      "difficulty": "Easy",
+      "pet_safe": false,
+      "image_url": "images/jade-plant.webp",
+      "description": "A long-lived succulent often associated with good luck and prosperity."
+    },
+    {
+      "id": "p013",
+      "common_name": "Bird of Paradise",
+      "scientific_name": "Strelitzia reginae",
+      "light_level": "Bright Direct",
+      "water_needs": "Every 1 week",
+      "difficulty": "Moderate",
+      "pet_safe": false,
+      "image_url": "images/bird-of-paradise.webp",
+      "description": "A large tropical plant that produces stunning orange and blue flowers in ideal conditions."
+    },
+    {
+      "id": "p014",
+      "common_name": "Parlor Palm",
+      "scientific_name": "Chamaedorea elegans",
+      "light_level": "Medium Indirect",
+      "water_needs": "Every 1-2 weeks",
+      "difficulty": "Easy",
+      "pet_safe": true,
+      "image_url": "images/parlor-palm.webp",
+      "description": "One of the most popular indoor palms since the Victorian era."
+    },
+    {
+      "id": "p015",
+      "common_name": "Prayer Plant",
+      "scientific_name": "Maranta leuconeura",
+      "light_level": "Medium Indirect",
+      "water_needs": "Every 1 week",
+      "difficulty": "Moderate",
+      "pet_safe": true,
+      "image_url": "images/prayer-plant.webp",
+      "description": "Leaves fold up at night like hands folded in prayer."
+    },
+    {
+      "id": "p016",
+      "common_name": "English Ivy",
+      "scientific_name": "Hedera helix",
+      "light_level": "Bright Indirect",
+      "water_needs": "Every 1 week",
+      "difficulty": "Moderate",
+      "pet_safe": false,
+      "image_url": "images/english-ivy.webp",
+      "description": "A classic climber that looks beautiful in hanging baskets."
+    },
+    {
+      "id": "p017",
+      "common_name": "Cast Iron Plant",
+      "scientific_name": "Aspidistra elatior",
+      "light_level": "Low",
+      "water_needs": "Every 2 weeks",
+      "difficulty": "Beginner",
+      "pet_safe": true,
+      "image_url": "images/cast-iron.webp",
+      "description": "Named for its ability to survive in nearly any condition."
+    },
+    {
+      "id": "p018",
+      "common_name": "String of Pearls",
+      "scientific_name": "Senecio rowleyanus",
+      "light_level": "Bright Direct",
+      "water_needs": "Every 2-3 weeks",
+      "difficulty": "Hard",
+      "pet_safe": false,
+      "image_url": "images/string-of-pearls.webp",
+      "description": "A unique succulent with pea-shaped leaves that trail down over the pot's edge."
+    }
+  ]
+}
