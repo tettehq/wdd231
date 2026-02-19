@@ -1,0 +1,25 @@
+@media only screen and (min-width: 28rem) {
+  .list-layout .plant-card {
+    flex-direction: row;
+  }
+
+  .directory-intro {
+    justify-content: space-between;
+    grid-template-areas: "h1 view favs";
+
+    h1 {
+      justify-self: center;
+      grid-area: h1;
+    }
+
+    .view-toggles {
+      justify-self: center;
+      grid-area: view;
+    }
+
+    #filter-favs {
+      justify-self: center;
+      grid-area: favs;
+    }
+  }
+}

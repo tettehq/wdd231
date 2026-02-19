@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Green Thumb | Your Ultimate Indoor Plant Directory</title>
+
+    <meta
+      name="description"
+      content="Discover the best indoor plants for your home. The Green Thumb provides expert care guides, light requirements, and a community for plant lovers."
+    />
+    <meta name="author" content="Aaron Quarshie" />
+
+    <meta property="og:title" content="The Green Thumb Directory" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Expert care guides for indoor plants. Find your perfect green companion today."
+    />
+    <meta
+      property="og:image"
+      content="https://tettehq.github.io/wdd231/final/images/og-image.jpg"
+    />
+    <meta property="og:url" content="https://tettehq.github.io/wdd231/final/" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/large.css"/>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <section class="logo">
+        <img src="images/logo.webp" alt="The Green Thumb Logo" />
+        <span>The Green Thumb</span>
+      </section>
+
+      <button id="menu-button" aria-label="Toggle Navigation">
+        <span class="hamburger">&#9776;</span>
+        <span class="close-x">&times;</span>
+      </button>
+
+      <nav id="primary-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <section class="hero-content">
+          <h1>Transform Your Space with Greenery</h1>
+          <p>
+            From low-light survivors to sun-loving tropicals, find the perfect
+            plant for your unique lifestyle.
+          </p>
+          <a href="directory.html" class="cta-button">Browse the Directory</a>
+        </section>
+
+        <figure class="hero-image">
+          <picture>
+            <source
+              srcset="images/hero-large.webp"
+              media="(min-width: 600px)"
+            />
+            <img
+              src="images/hero-small.webp"
+              alt="Lush indoor garden collection"
+              width="800"
+              height="500"
+            />
+          </picture>
+        </figure>
+      </section>
+
+      <section class="features">
+        <h2>Why Use Our Directory?</h2>
+        <section class="feature-grid">
+          <article class="feature-card">
+            <h3>Accurate Data</h3>
+            <p>
+              Every plant in our 15+ species list includes specific watering and
+              lighting needs.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Personalized Favorites</h3>
+            <p>
+              Save plants to your personal dashboard using our local storage
+              feature.
+            </p>
+          </article>
+          <article class="feature-card">
+            <h3>Expert Care Tips</h3>
+            <p>
+              Get pro-tips on humidity, soil types, and seasonal adjustments for
+              every plant.
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <section class="home-join">
+        <section class="join-banner">
+          <h2>Never Kill a Plant Again</h2>
+          <p>
+            Join our club to receive monthly care reminders and exclusive plant
+            profiles.
+          </p>
+          <a href="join.html" class="cta-secondary">Sign Up Now</a>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-content">
+        <p>
+          &copy; <span id="current-year"></span> | The Green Thumb | Aaron
+          Quarshie
+        </p>
+        <p>WDD 231 Final Project</p>
+        <nav class="social-links">
+          <a href="https://github.com/tettehq/" target="_blank">
+            <img src="images/github.svg" alt="github icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aaronquarshie2417/"
+            target="_blank"
+          >
+            <img src="images/linkedin.svg" alt="linkedin icon" />
+          </a>
+          <a href="https://x.com/HettetNoraa" target="_blank">
+            <img src="images/twitter.svg" alt="twitter icon" />
+          </a>
+        </nav>
+        <p id="last-modified"></p>
+      </section>
+    </footer>
+
+  </body>
+</html>

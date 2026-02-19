@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join the Club | The Green Thumb</title>
+
+    <meta
+      name="description"
+      content="Sign up for our indoor plant newsletter and community for exclusive care tips."
+    />
+    <meta name="author" content="Aaron Quarshie" />
+
+    <meta
+      property="og:title"
+      content="Join the Club | The Green Thumb Directory"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Sign up for our indoor plant newsletter and community for exclusive care tips."
+    />
+    <meta
+      property="og:image"
+      content="https://tettehq.github.io/wdd231/final/images/hero-large.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://tettehq.github.io/wdd231/final/join.html"
+    />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/main.mjs" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <section class="logo">
+        <img src="images/logo.webp" alt="The Green Thumb Logo" />
+        <span>The Green Thumb</span>
+      </section>
+
+      <button id="menu-button" aria-label="Toggle Navigation">
+        <span class="hamburger">&#9776;</span>
+        <span class="close-x">&times;</span>
+      </button>
+
+      <nav id="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html" class="active">Join Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="form-container">
+        <header class="directory-intro">
+          <h1>Join Our Plant Community</h1>
+        </header>
+        <form action="thankyou.html" method="get" class="plant-form">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label
+              >First Name*
+              <input
+                type="text"
+                name="fname"
+                autocomplete="given-name"
+                required
+                title="Enter your first name"
+            /></label>
+            <label
+              >Last Name*
+              <input
+                type="text"
+                name="lname"
+                autocomplete="family-name"
+                required
+                title="Enter your last name"
+            /></label>
+            <label
+              >Email*
+              <input
+                type="email"
+                name="email"
+                autocomplete="email"
+                required
+                placeholder="example@email.com"
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Plant Preferences</legend>
+            <label
+              >Experience Level
+              <select name="level">
+                <option value="beginner">
+                  Beginner (I kill plastic plants)
+                </option>
+                <option value="intermediate">
+                  Intermediate (I have a few survivors)
+                </option>
+                <option value="expert">Expert (I live in a jungle)</option>
+              </select>
+            </label>
+            <label
+              >Favorite Plant Type
+              <input list="plants-list" name="fav-type" />
+              <datalist id="plants-list">
+                <option value="Succulents"></option>
+                <option value="Tropicals"></option>
+                <option value="Ferns"></option>
+                <option value="Vines"></option>
+              </datalist>
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Membership</legend>
+            <label class="radio-label"
+              ><input type="radio" name="membership" value="Free" checked />
+              Free Newsletter</label
+            >
+            <label class="radio-label"
+              ><input type="radio" name="membership" value="Pro" /> Pro Gardener
+              ($5/mo)</label
+            >
+          </fieldset>
+
+          <input type="hidden" name="timestamp" id="form-time" />
+
+          <input type="submit" value="Sign Me Up!" class="submit-btn" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-content">
+        <p>
+          &copy; <span id="current-year"></span> | The Green Thumb | Aaron
+          Quarshie
+        </p>
+        <p>WDD 231 Final Project</p>
+        <nav class="social-links">
+          <a href="https://github.com/tettehq/" target="_blank">
+            <img src="images/github.svg" alt="github icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aaronquarshie2417/"
+            target="_blank"
+          >
+            <img src="images/linkedin.svg" alt="linkedin icon" />
+          </a>
+          <a href="https://x.com/HettetNoraa" target="_blank">
+            <img src="images/twitter.svg" alt="twitter icon" />
+          </a>
+        </nav>
+        <p id="last-modified"></p>
+      </section>
+    </footer>
+  </body>
+</html>

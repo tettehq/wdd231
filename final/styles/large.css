@@ -1,0 +1,35 @@
+/* styles/large.css */
+@media only screen and (min-width: 40rem) {
+  #menu-button {
+    display: none; /* Hide hamburger on desktop */
+  }
+
+  nav ul {
+    display: flex; /* Show menu always */
+    flex-direction: row;
+    position: static;
+    width: auto;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 column layout */
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .list-layout .plant-card figure img {
+    display: initial;
+    width: 100px;
+  }
+
+  .list-layout .scientific {
+    display: initial;
+  }
+}
