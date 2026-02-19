@@ -182,6 +182,16 @@ footer {
   width: 50px;
 }
 
+.video-demo {
+  color: var(--white);
+  font-weight: 900;
+}
+
+.video-demo:hover {
+  background-color: #7cf1b7;
+  color: var(--primary-color);
+}
+
 .home-join {
   padding: 2rem 1rem;
 }

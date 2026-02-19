@@ -37,6 +37,11 @@ if (timestamp) {
   timestamp.value = Date.now();
 }
 
+document.getElementById("last-modified").innerHTML = document.lastModified;
+console.log("yes");
+const d = new Date();
+document.getElementById("current-year").innerHTML = d.getFullYear();
+
 const menuButton = document.querySelector("#menu-button");
 const nav = document.querySelector("#primary-nav ul");
 
