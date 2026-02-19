@@ -1,4 +1,4 @@
-/* --- Root Variables --- */
+/* --- ROOT VARIABLES --- */
 :root {
   --primary-color: #1b4332;
   --secondary-color: #7cf1b7;
@@ -10,7 +10,7 @@
   --body-font: "Source Sans Pro", sans-serif;
 }
 
-/* --- Global Reset & Base --- */
+/* --- RESET --- */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,7 +29,7 @@ main {
   margin: auto;
 }
 
-/* --- Header & Navigation --- */
+/* --- HEADER & NAVIGATION --- */
 header {
   background-color: var(--primary-color);
   color: var(--white);
@@ -108,7 +108,7 @@ nav a.active {
   color: var(--primary-color);
 }
 
-/* --- Hero Section --- */
+/* --- HERO --- */
 .hero {
   padding: 2rem 1rem;
   text-align: center;
@@ -139,7 +139,7 @@ nav a.active {
   margin-top: 1rem;
 }
 
-/* --- Feature Grid --- */
+/* --- FEATURE GRID --- */
 .features {
   padding: 3rem 1rem;
   background-color: var(--white);
@@ -159,7 +159,7 @@ nav a.active {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-/* --- Footer --- */
+/* --- FOOTER --- */
 footer {
   background-color: var(--primary-color);
   color: var(--white);
@@ -186,7 +186,7 @@ footer {
   padding: 2rem 1rem;
 }
 
-/*---------- Layout Toggles ------------ */
+/*--- LAYOUT TOGGLES --- */
 .directory-intro {
   position: static;
   margin-top: 1rem;
@@ -375,7 +375,7 @@ footer {
   margin: 1rem;
 }
 
-/* --- Favorite Button & Card Actions --- */
+/* --- FAVORITE BUTTON & CARD ACTIONS --- */
 .card-actions {
   display: flex;
   flex-direction: column;

@@ -54,7 +54,6 @@ export function updateGardenCount() {
   const countDisplay = document.querySelector("#garden-count");
   if (countDisplay) {
     const favorites = JSON.parse(localStorage.getItem("myGarden")) || [];
-    // Updated to just the number since your HTML has the parentheses
     countDisplay.textContent = favorites.length;
   }
 }

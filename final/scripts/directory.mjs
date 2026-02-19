@@ -1,7 +1,7 @@
 import { updateGardenCount } from "./main.mjs";
 
 const display = document.querySelector("#plant-display");
-let allPlants = []; // Store full list for filtering
+let allPlants = []
 
 export async function fetchPlants() {
   try {
@@ -9,7 +9,7 @@ export async function fetchPlants() {
     if (!response.ok) throw new Error("Failed to load JSON");
 
     const data = await response.json();
-    allPlants = data.plants; // Save the array to our variable
+    allPlants = data.plants;
     renderPlants(allPlants);
   } catch (error) {
     console.error("Fetch error:", error);
@@ -17,11 +17,9 @@ export async function fetchPlants() {
   }
 }
 
-// Logic to filter the array based on Local Storage IDs
 export function filterFavorites(showOnlyFavs) {
   if (showOnlyFavs) {
     const favorites = getFavorites();
-    // Requirement: Array Method (.filter)
     const filteredList = allPlants.filter((plant) =>
       favorites.includes(plant.id),
     );
@@ -56,7 +54,6 @@ function toggleFavorite(plantId, button) {
   localStorage.setItem("myGarden", JSON.stringify(favorites));
   updateGardenCount();
 
-  // Re-run filter logic if user is currently in "Garden Only" mode
   const filterBtn = document.querySelector("#filter-favs");
   if (filterBtn && filterBtn.classList.contains("selected")) {
     filterFavorites(true);
